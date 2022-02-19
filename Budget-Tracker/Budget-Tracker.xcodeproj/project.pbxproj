@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB7D552927C1215700064878 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7D552827C1215700064878 /* BaseViewController.swift */; };
+		AB7D552E27C1233700064878 /* BTrackerHomeViewController+Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7D552A27C1233700064878 /* BTrackerHomeViewController+Router.swift */; };
+		AB7D552F27C1233700064878 /* BTrackerHomeViewController+Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7D552B27C1233700064878 /* BTrackerHomeViewController+Protocols.swift */; };
+		AB7D553027C1233700064878 /* BTrackerHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7D552C27C1233700064878 /* BTrackerHomeViewController.swift */; };
+		AB7D553127C1233700064878 /* BTrackerHomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7D552D27C1233700064878 /* BTrackerHomeModel.swift */; };
+		AB7D553427C12A9F00064878 /* ColorDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7D553327C12A9F00064878 /* ColorDefine.swift */; };
+		AB7D553927C12BD400064878 /* BTrackerAccountListViewController+Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7D553527C12BD400064878 /* BTrackerAccountListViewController+Router.swift */; };
+		AB7D553A27C12BD400064878 /* BTrackerAccountListViewController+Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7D553627C12BD400064878 /* BTrackerAccountListViewController+Protocols.swift */; };
+		AB7D553B27C12BD400064878 /* BTrackerAccountListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7D553727C12BD400064878 /* BTrackerAccountListViewController.swift */; };
+		AB7D553C27C12BD400064878 /* BTrackerAccountListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7D553827C12BD400064878 /* BTrackerAccountListModel.swift */; };
+		AB7D553E27C12BF100064878 /* BTrackerHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB7D553D27C12BF100064878 /* BTrackerHomeViewController.xib */; };
+		AB7D554027C12C7500064878 /* BTrackerAccountListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB7D553F27C12C7500064878 /* BTrackerAccountListViewController.xib */; };
+		AB7D554627C130FF00064878 /* NSObjectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7D554527C130FF00064878 /* NSObjectExtension.swift */; };
+		AB7D554827C132EC00064878 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7D554727C132EC00064878 /* UIColorExtension.swift */; };
+		AB7D554C27C138DA00064878 /* BTrackerHomeTransactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7D554A27C138DA00064878 /* BTrackerHomeTransactionTableViewCell.swift */; };
+		AB7D554D27C138DA00064878 /* BTrackerHomeTransactionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB7D554B27C138DA00064878 /* BTrackerHomeTransactionTableViewCell.xib */; };
+		AB7D554F27C1403300064878 /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7D554E27C1403300064878 /* UITableViewExtension.swift */; };
+		AC6774C92776FBC400EA56D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6774C82776FBC400EA56D6 /* AppDelegate.swift */; };
+		AC6774CB2776FBC400EA56D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6774CA2776FBC400EA56D6 /* SceneDelegate.swift */; };
+		AC6774CD2776FBC400EA56D6 /* BTrackerTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6774CC2776FBC400EA56D6 /* BTrackerTabBarViewController.swift */; };
+		AC6774D02776FBC400EA56D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC6774CE2776FBC400EA56D6 /* Main.storyboard */; };
+		AC6774D22776FBC500EA56D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC6774D12776FBC500EA56D6 /* Assets.xcassets */; };
+		AC6774D52776FBC500EA56D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC6774D32776FBC500EA56D6 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB7D552827C1215700064878 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		AB7D552A27C1233700064878 /* BTrackerHomeViewController+Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BTrackerHomeViewController+Router.swift"; sourceTree = "<group>"; };
+		AB7D552B27C1233700064878 /* BTrackerHomeViewController+Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BTrackerHomeViewController+Protocols.swift"; sourceTree = "<group>"; };
+		AB7D552C27C1233700064878 /* BTrackerHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTrackerHomeViewController.swift; sourceTree = "<group>"; };
+		AB7D552D27C1233700064878 /* BTrackerHomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTrackerHomeModel.swift; sourceTree = "<group>"; };
+		AB7D553327C12A9F00064878 /* ColorDefine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDefine.swift; sourceTree = "<group>"; };
+		AB7D553527C12BD400064878 /* BTrackerAccountListViewController+Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BTrackerAccountListViewController+Router.swift"; sourceTree = "<group>"; };
+		AB7D553627C12BD400064878 /* BTrackerAccountListViewController+Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BTrackerAccountListViewController+Protocols.swift"; sourceTree = "<group>"; };
+		AB7D553727C12BD400064878 /* BTrackerAccountListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTrackerAccountListViewController.swift; sourceTree = "<group>"; };
+		AB7D553827C12BD400064878 /* BTrackerAccountListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTrackerAccountListModel.swift; sourceTree = "<group>"; };
+		AB7D553D27C12BF100064878 /* BTrackerHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BTrackerHomeViewController.xib; sourceTree = "<group>"; };
+		AB7D553F27C12C7500064878 /* BTrackerAccountListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BTrackerAccountListViewController.xib; sourceTree = "<group>"; };
+		AB7D554527C130FF00064878 /* NSObjectExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectExtension.swift; sourceTree = "<group>"; };
+		AB7D554727C132EC00064878 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		AB7D554A27C138DA00064878 /* BTrackerHomeTransactionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTrackerHomeTransactionTableViewCell.swift; sourceTree = "<group>"; };
+		AB7D554B27C138DA00064878 /* BTrackerHomeTransactionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BTrackerHomeTransactionTableViewCell.xib; sourceTree = "<group>"; };
+		AB7D554E27C1403300064878 /* UITableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
+		AC6774C52776FBC400EA56D6 /* Budget-Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Budget-Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC6774C82776FBC400EA56D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC6774CA2776FBC400EA56D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AC6774CC2776FBC400EA56D6 /* BTrackerTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTrackerTabBarViewController.swift; sourceTree = "<group>"; };
+		AC6774CF2776FBC400EA56D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC6774D12776FBC500EA56D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC6774D42776FBC500EA56D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC6774D62776FBC500EA56D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC6774C22776FBC400EA56D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB7D551F27C10B1100064878 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				AB7D554927C137B400064878 /* Cells */,
+				AB7D552A27C1233700064878 /* BTrackerHomeViewController+Router.swift */,
+				AB7D552B27C1233700064878 /* BTrackerHomeViewController+Protocols.swift */,
+				AB7D552D27C1233700064878 /* BTrackerHomeModel.swift */,
+				AB7D552C27C1233700064878 /* BTrackerHomeViewController.swift */,
+				AB7D553D27C12BF100064878 /* BTrackerHomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		AB7D552027C10B2900064878 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				AB7D552627C10C9D00064878 /* AccountList */,
+				AB7D552527C10C6200064878 /* AddNewAccount */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		AB7D552127C10B8500064878 /* Transaction */ = {
+			isa = PBXGroup;
+			children = (
+				AB7D552227C10BD700064878 /* TransactionList */,
+				AB7D552327C10C1B00064878 /* TransactionDetails */,
+				AB7D552427C10C3400064878 /* AddNewTransaction */,
+			);
+			path = Transaction;
+			sourceTree = "<group>";
+		};
+		AB7D552227C10BD700064878 /* TransactionList */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TransactionList;
+			sourceTree = "<group>";
+		};
+		AB7D552327C10C1B00064878 /* TransactionDetails */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TransactionDetails;
+			sourceTree = "<group>";
+		};
+		AB7D552427C10C3400064878 /* AddNewTransaction */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AddNewTransaction;
+			sourceTree = "<group>";
+		};
+		AB7D552527C10C6200064878 /* AddNewAccount */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AddNewAccount;
+			sourceTree = "<group>";
+		};
+		AB7D552627C10C9D00064878 /* AccountList */ = {
+			isa = PBXGroup;
+			children = (
+				AB7D553527C12BD400064878 /* BTrackerAccountListViewController+Router.swift */,
+				AB7D553627C12BD400064878 /* BTrackerAccountListViewController+Protocols.swift */,
+				AB7D553827C12BD400064878 /* BTrackerAccountListModel.swift */,
+				AB7D553727C12BD400064878 /* BTrackerAccountListViewController.swift */,
+				AB7D553F27C12C7500064878 /* BTrackerAccountListViewController.xib */,
+			);
+			path = AccountList;
+			sourceTree = "<group>";
+		};
+		AB7D552727C1213700064878 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				AB7D554127C1304500064878 /* Extension */,
+				AB7D552827C1215700064878 /* BaseViewController.swift */,
+				AB7D553327C12A9F00064878 /* ColorDefine.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		AB7D554127C1304500064878 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AB7D554527C130FF00064878 /* NSObjectExtension.swift */,
+				AB7D554727C132EC00064878 /* UIColorExtension.swift */,
+				AB7D554E27C1403300064878 /* UITableViewExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		AB7D554927C137B400064878 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				AB7D554A27C138DA00064878 /* BTrackerHomeTransactionTableViewCell.swift */,
+				AB7D554B27C138DA00064878 /* BTrackerHomeTransactionTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		AC6774BC2776FBC400EA56D6 = {
+			isa = PBXGroup;
+			children = (
+				AC6774C72776FBC400EA56D6 /* Budget-Tracker */,
+				AC6774C62776FBC400EA56D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC6774C62776FBC400EA56D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC6774C52776FBC400EA56D6 /* Budget-Tracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC6774C72776FBC400EA56D6 /* Budget-Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				AC6774CC2776FBC400EA56D6 /* BTrackerTabBarViewController.swift */,
+				AC6774CE2776FBC400EA56D6 /* Main.storyboard */,
+				AB7D552727C1213700064878 /* Common */,
+				AB7D551F27C10B1100064878 /* Home */,
+				AB7D552027C10B2900064878 /* Account */,
+				AB7D552127C10B8500064878 /* Transaction */,
+				AC6774C82776FBC400EA56D6 /* AppDelegate.swift */,
+				AC6774CA2776FBC400EA56D6 /* SceneDelegate.swift */,
+				AC6774D12776FBC500EA56D6 /* Assets.xcassets */,
+				AC6774D32776FBC500EA56D6 /* LaunchScreen.storyboard */,
+				AC6774D62776FBC500EA56D6 /* Info.plist */,
+			);
+			path = "Budget-Tracker";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC6774C42776FBC400EA56D6 /* Budget-Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC6774D92776FBC500EA56D6 /* Build configuration list for PBXNativeTarget "Budget-Tracker" */;
+			buildPhases = (
+				AC6774C12776FBC400EA56D6 /* Sources */,
+				AC6774C22776FBC400EA56D6 /* Frameworks */,
+				AC6774C32776FBC400EA56D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Budget-Tracker";
+			productName = "Budget-Tracker";
+			productReference = AC6774C52776FBC400EA56D6 /* Budget-Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC6774BD2776FBC400EA56D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					AC6774C42776FBC400EA56D6 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = AC6774C02776FBC400EA56D6 /* Build configuration list for PBXProject "Budget-Tracker" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC6774BC2776FBC400EA56D6;
+			productRefGroup = AC6774C62776FBC400EA56D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC6774C42776FBC400EA56D6 /* Budget-Tracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC6774C32776FBC400EA56D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC6774D52776FBC500EA56D6 /* LaunchScreen.storyboard in Resources */,
+				AB7D553E27C12BF100064878 /* BTrackerHomeViewController.xib in Resources */,
+				AC6774D22776FBC500EA56D6 /* Assets.xcassets in Resources */,
+				AB7D554D27C138DA00064878 /* BTrackerHomeTransactionTableViewCell.xib in Resources */,
+				AC6774D02776FBC400EA56D6 /* Main.storyboard in Resources */,
+				AB7D554027C12C7500064878 /* BTrackerAccountListViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC6774C12776FBC400EA56D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB7D553A27C12BD400064878 /* BTrackerAccountListViewController+Protocols.swift in Sources */,
+				AB7D554627C130FF00064878 /* NSObjectExtension.swift in Sources */,
+				AB7D554827C132EC00064878 /* UIColorExtension.swift in Sources */,
+				AC6774CD2776FBC400EA56D6 /* BTrackerTabBarViewController.swift in Sources */,
+				AB7D553027C1233700064878 /* BTrackerHomeViewController.swift in Sources */,
+				AB7D554C27C138DA00064878 /* BTrackerHomeTransactionTableViewCell.swift in Sources */,
+				AB7D553427C12A9F00064878 /* ColorDefine.swift in Sources */,
+				AB7D553B27C12BD400064878 /* BTrackerAccountListViewController.swift in Sources */,
+				AB7D554F27C1403300064878 /* UITableViewExtension.swift in Sources */,
+				AB7D553127C1233700064878 /* BTrackerHomeModel.swift in Sources */,
+				AB7D552927C1215700064878 /* BaseViewController.swift in Sources */,
+				AC6774C92776FBC400EA56D6 /* AppDelegate.swift in Sources */,
+				AC6774CB2776FBC400EA56D6 /* SceneDelegate.swift in Sources */,
+				AB7D553927C12BD400064878 /* BTrackerAccountListViewController+Router.swift in Sources */,
+				AB7D553C27C12BD400064878 /* BTrackerAccountListModel.swift in Sources */,
+				AB7D552E27C1233700064878 /* BTrackerHomeViewController+Router.swift in Sources */,
+				AB7D552F27C1233700064878 /* BTrackerHomeViewController+Protocols.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC6774CE2776FBC400EA56D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC6774CF2776FBC400EA56D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC6774D32776FBC500EA56D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC6774D42776FBC500EA56D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC6774D72776FBC500EA56D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC6774D82776FBC500EA56D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC6774DA2776FBC500EA56D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Budget-Tracker/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dqkhai28.Budget-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AC6774DB2776FBC500EA56D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Budget-Tracker/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dqkhai28.Budget-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC6774C02776FBC400EA56D6 /* Build configuration list for PBXProject "Budget-Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC6774D72776FBC500EA56D6 /* Debug */,
+				AC6774D82776FBC500EA56D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC6774D92776FBC500EA56D6 /* Build configuration list for PBXNativeTarget "Budget-Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC6774DA2776FBC500EA56D6 /* Debug */,
+				AC6774DB2776FBC500EA56D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC6774BD2776FBC400EA56D6 /* Project object */;
+}
