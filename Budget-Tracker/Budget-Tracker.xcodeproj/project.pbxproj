@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB28124127CA0FAB002609BB /* BTrackerHomeEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB28124027CA0FAB002609BB /* BTrackerHomeEntity.swift */; };
+		AB28124327CA10BB002609BB /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB28124227CA10BB002609BB /* StringExtension.swift */; };
 		AB7D552927C1215700064878 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7D552827C1215700064878 /* BaseViewController.swift */; };
 		AB7D552E27C1233700064878 /* BTrackerHomeViewController+Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7D552A27C1233700064878 /* BTrackerHomeViewController+Router.swift */; };
 		AB7D552F27C1233700064878 /* BTrackerHomeViewController+Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7D552B27C1233700064878 /* BTrackerHomeViewController+Protocols.swift */; };
@@ -33,6 +35,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB28124027CA0FAB002609BB /* BTrackerHomeEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTrackerHomeEntity.swift; sourceTree = "<group>"; };
+		AB28124227CA10BB002609BB /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		AB7D552827C1215700064878 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		AB7D552A27C1233700064878 /* BTrackerHomeViewController+Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BTrackerHomeViewController+Router.swift"; sourceTree = "<group>"; };
 		AB7D552B27C1233700064878 /* BTrackerHomeViewController+Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BTrackerHomeViewController+Protocols.swift"; sourceTree = "<group>"; };
@@ -71,9 +75,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB28123F27CA0F73002609BB /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				AB28124027CA0FAB002609BB /* BTrackerHomeEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
 		AB7D551F27C10B1100064878 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				AB28123F27CA0F73002609BB /* Entity */,
 				AB7D554927C137B400064878 /* Cells */,
 				AB7D552A27C1233700064878 /* BTrackerHomeViewController+Router.swift */,
 				AB7D552B27C1233700064878 /* BTrackerHomeViewController+Protocols.swift */,
@@ -159,6 +172,7 @@
 				AB7D554527C130FF00064878 /* NSObjectExtension.swift */,
 				AB7D554727C132EC00064878 /* UIColorExtension.swift */,
 				AB7D554E27C1403300064878 /* UITableViewExtension.swift */,
+				AB28124227CA10BB002609BB /* StringExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -287,6 +301,7 @@
 				AB7D553027C1233700064878 /* BTrackerHomeViewController.swift in Sources */,
 				AB7D554C27C138DA00064878 /* BTrackerHomeTransactionTableViewCell.swift in Sources */,
 				AB7D553427C12A9F00064878 /* ColorDefine.swift in Sources */,
+				AB28124127CA0FAB002609BB /* BTrackerHomeEntity.swift in Sources */,
 				AB7D553B27C12BD400064878 /* BTrackerAccountListViewController.swift in Sources */,
 				AB7D554F27C1403300064878 /* UITableViewExtension.swift in Sources */,
 				AB7D553127C1233700064878 /* BTrackerHomeModel.swift in Sources */,
@@ -295,6 +310,7 @@
 				AC6774CB2776FBC400EA56D6 /* SceneDelegate.swift in Sources */,
 				AB7D553927C12BD400064878 /* BTrackerAccountListViewController+Router.swift in Sources */,
 				AB7D553C27C12BD400064878 /* BTrackerAccountListModel.swift in Sources */,
+				AB28124327CA10BB002609BB /* StringExtension.swift in Sources */,
 				AB7D552E27C1233700064878 /* BTrackerHomeViewController+Router.swift in Sources */,
 				AB7D552F27C1233700064878 /* BTrackerHomeViewController+Protocols.swift in Sources */,
 			);

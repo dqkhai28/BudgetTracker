@@ -19,11 +19,12 @@ class BTrackerHomeTransactionTableViewCell: UITableViewCell {
         super.awakeFromNib()
         // Initialization code
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
     
+    func setupData(data: BTrackerTransactionEntity) {
+        transactionName.text = data.category
+        transactionInfo.text = data.note
+        time.text = data.date
+        amount.text = data.amount
+        account.text = data.account
+    }
 }

@@ -27,7 +27,7 @@ class BTrackerHomeViewController: BaseViewController {
 extension BTrackerHomeViewController {
     /// This function call all initial logical processes, included APIs
     func initModel() {
-        
+        model.stubData()
     }
     
     /// This function call all initial UIs processes, included color, font, size, etc.
